@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "maris.github.io"
+  title: "maris.collaborative"
   navbar:
     left:
       - href: index.qmd
