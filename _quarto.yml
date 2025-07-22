@@ -1,9 +1,12 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 website:
   title: "Maris Collaborative, LLC"
+  site-url: "https://mariscollaborative.com"
   navbar:
     left:
       - href: index.qmd
