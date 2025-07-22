@@ -1,0 +1,51 @@
+meta:
+  name: Maris Collaborative, LLC
+  link:
+    github: https://github.com/AngeliaMiller/maris-collaborative
+
+logo:
+
+
+color:
+  palette:
+    dark-blue: "#012339"
+    teal: "#276f75"
+    light-blue: "#a0c5c9"
+    yellow: "#dcb049"
+    blue: "#223d50"
+    white: "#f3eee8"
+  primary: blue
+  success: teal
+  warning: yellow
+  danger: light-blue
+
+typography:
+  fonts:
+    - family: Open Sans
+      source: google
+    - family: IBM Plex Mono
+      source: google
+    - family: Rubik
+      source: google
+  base:
+    family: Open Sans
+    line-height: 1.6
+  headings:
+    family: Rubik
+    weight: normal
+  link:
+    color: dark-blue
+  monospace:
+    family: IBM Plex Mono
+    size: 1em
+
+defaults:
+  bootstrap:
+    # bootstrap variable definitions
+  quarto:
+    format:
+      # basic format-specific settings
+      html:
+      revealjs:
+  shiny:
+    # shiny specific settings
