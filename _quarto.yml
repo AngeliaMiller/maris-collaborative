@@ -3,10 +3,13 @@ project:
   output-dir: docs
   resources:
     - CNAME
+    
+execute:
+  freeze: auto
 
 website:
   title: "Maris Collaborative, LLC"
-  site-url: "https://mariscollaborative.com"
+  site-url: "https://www.mariscollaborative.com"
   navbar:
     left:
       - href: index.qmd
