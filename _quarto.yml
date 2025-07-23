@@ -12,12 +12,14 @@ website:
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    # logo: images/full-logo.png
+    logo: brand-logo.medium
     logo-alt: "Maris Collaborative with wave icon"
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home
       - about.qmd
+
+brand: _brand.yml
 
 format:
   html:
