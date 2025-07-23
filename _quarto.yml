@@ -8,7 +8,7 @@ execute:
   freeze: auto
 
 website:
-  # title: "Maris Collaborative, LLC"
+  title: "Maris Collaborative, LLC"
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
   navbar:
