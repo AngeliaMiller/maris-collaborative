@@ -26,7 +26,7 @@ logo:
       alt: "Full company logo with tagline in white"
   small: 
     light: icon-white
-    dark: icon
+    dark: full
   medium: 
     light: header-white
     dark: header
