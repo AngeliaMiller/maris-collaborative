@@ -1,7 +1,38 @@
 meta:
   name: Maris Collaborative, LLC
   link:
+    home: www.mariscollaborative.com
     github: https://github.com/AngeliaMiller/maris-collaborative
+
+logo: 
+  images: 
+    icon:
+      path: logos/icon.png
+      alt: "Company icon with abstract shape"
+    icon-light:
+      path: logos/icon-white.png
+      alt: "Company icon with abstract shape in white"
+    header:
+      path: logos/header.png
+      alt: "Company name with logo"
+    header-white:
+      path: logos/header-white.png
+      alt: "Company name with logo in white"
+    full: 
+      path: logos/full-logo
+      alt: "Full company logo with tagline"
+    full-white: 
+      path: logos/full-logo-white
+      alt: "Full company logo with tagline in white"
+  small: 
+    light: icon-white
+    dark: icon
+  medium: 
+    light: header-white
+    dark: header
+  large:
+    light: full-white
+    dark: full
 
 color:
   palette:
@@ -18,14 +49,17 @@ color:
 
 typography:
   fonts:
-    - family: Open Sans
+    - family: Figtree
       source: google
-    - family: IBM Plex Mono
+    - family: Geologica
       source: google
+      weight: 300
     - family: Lora
       source: google
+    - family: Oxygen Mono
+      source: google
   base:
-    family: Open Sans
+    family: Figtree
     line-height: 1.6
   headings:
     family: Lora
@@ -33,7 +67,7 @@ typography:
   link:
     color: dark-blue
   monospace:
-    family: IBM Plex Mono
+    family: Oxygen Mono
     size: 1em
 
 # defaults:
