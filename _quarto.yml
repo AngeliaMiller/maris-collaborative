@@ -17,7 +17,8 @@ website:
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       
 # Use the brand file for all documents in the project
 brand: _brand.yml
