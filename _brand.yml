@@ -4,7 +4,7 @@ meta:
     home: www.mariscollaborative.com
     github: https://github.com/AngeliaMiller/maris-collaborative
 
-# logo: 
+logo: 
   # images: 
   #   icon:
   #     path: logos/icon.png
@@ -24,7 +24,7 @@ meta:
   #   full-white: 
   #     path: logos/full-logo-white.svg
   #     alt: "Full company logo with tagline in white"
-  # small: logos/icon.png # wave in blue
+  small: logos/icon.png # wave in blue
   #   light: icon-white
   #   dark: icon
   # medium: logos/mc-logo.png # wave in white and text in light blue on dark blue background
