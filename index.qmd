@@ -1,8 +1,6 @@
 ---
 title: "Welcome!"
-image: images/banner-images/index.svg
-about:
-  template: marquee
+
 ---
 
 
