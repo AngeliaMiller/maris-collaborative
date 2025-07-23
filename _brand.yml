@@ -24,13 +24,13 @@ logo:
   #   full-white: 
   #     path: logos/full-logo-white.svg
   #     alt: "Full company logo with tagline in white"
-  small: logos/icon.png
+  small: logos/icon.png # wave in blue
   #   light: icon-white
   #   dark: icon
-  medium: logos/full-logo-sm.png
+  medium: logos/full-logo-sm.png # wave in white and text in light blue on dark blue background
   #   light: header-white
   #   dark: header
-  large: logos/full-logo-white.svg
+  large: logos/full-logo-white.svg # full logo with tagline on white background
   #   light: full-white
     # dark: full
 
