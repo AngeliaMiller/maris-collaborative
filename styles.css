@@ -1,1 +1,11 @@
 /* css styles */
+
+/* navbar */
+
+.navbar-logo {
+  max-height: 100px;
+}
+
+.favicon {
+  max-height: 50px;
+}

@@ -24,8 +24,8 @@ format:
     theme:
       - cosmo
       - brand
-      - mystyles.scss
-    # css: styles.css
+      # - mystyles.scss
+    css: styles.css
     toc: true
 
 editor: visual
