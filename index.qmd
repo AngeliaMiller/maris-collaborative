@@ -3,7 +3,7 @@ title: "Maris Collaborative, LLC"
 image: logos/full-logo-white.png 
 image-alt: "Headshot of Angelia Miller"
 about: 
-  template: markquee
+  template: marquee
 ---
 
 Hello, I'm so happy you're here!
