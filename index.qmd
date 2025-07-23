@@ -1,13 +1,13 @@
 ---
-title: "Maris Collaborative, LLC"
-image: logos/full-logo-white.svg
-image-alt: "Full logo with tagline and abstract shape"
+title: "Welcome!"
+image: images/headshot.jpg
+image-alt: "Headshot of Angelia Miller"
 image-width: 10em
 about: 
-  template: marquee
+  template: solana
 ---
 
-Hello, I'm so happy you're here!
+I'm so happy you're here!
 
 I'm currently in the process of developing this website. Please check back later! 
 
