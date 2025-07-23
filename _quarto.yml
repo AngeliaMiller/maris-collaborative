@@ -25,7 +25,7 @@ website:
 brand: _brand.yml
 
 page-footer:
-    background: light
+    # background: light
     left: Copyright 2025
     right: This website is built with {{< fa heart title="a heart" >}} and [Quarto](https://quarto.org/)
 
