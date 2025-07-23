@@ -6,32 +6,32 @@ meta:
 
 logo: 
   images: 
-    icon:
-      path: logos/icon.png
-      alt: "Company icon with abstract shape"
-    icon-white:
-      path: logos/icon-white.png
-      alt: "Company icon with abstract shape in white"
-    header:
-      path: logos/header.png
-      alt: "Company name with logo"
-    header-white:
-      path: logos/header-white.png
-      alt: "Company name with logo in white"
-    full: 
-      path: logos/full-logo.svg
-      alt: "Full company logo with tagline"
-    full-white: 
-      path: logos/full-logo-white.svg
-      alt: "Full company logo with tagline in white"
-  small: 
-    light: icon-white
-    dark: icon
-  medium: 
-    light: header-white
-    dark: header
+  #   icon:
+  #     path: logos/icon.png
+  #     alt: "Company icon with abstract shape"
+  #   icon-white:
+  #     path: logos/icon-white.png
+  #     alt: "Company icon with abstract shape in white"
+  #   header:
+  #     path: logos/header.png
+  #     alt: "Company name with logo"
+  #   header-white:
+  #     path: logos/header-white.png
+  #     alt: "Company name with logo in white"
+    full:
+      path: logos/full-logo-sm.png
+      alt: "Full company logo"
+  #   full-white: 
+  #     path: logos/full-logo-white.svg
+  #     alt: "Full company logo with tagline in white"
+  # small: 
+  #   light: icon-white
+  #   dark: icon
+  # medium: 
+  #   light: header-white
+  #   dark: header
   large:
-    light: full-white
+  #   light: full-white
     dark: full
 
 color:
