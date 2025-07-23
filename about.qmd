@@ -1,11 +1,6 @@
 ---
 title: "About"
-# favicon: logos/icon.png
-# about:
-  # template: solana
-  # image: 
-  # image-alt: "Headshot of Angelia Miller"
-# image-width: 10em
+
 ---
 
 ![Angelia Miller](images/headshot.jpg){fig-align="left"}

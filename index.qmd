@@ -1,14 +1,10 @@
 ---
 title: "Welcome!"
+image: images/banner-images/index.svg
 about:
   template: marquee
-  image: images/banner-images/index.svg
-page-layout: full
-  # image-alt: "Headshot of Angelia Miller"
-# image-width: 10em
 ---
 
-<!-- ![](images/banner-images/index.svg) -->
 
 I'm so happy you're here!
 

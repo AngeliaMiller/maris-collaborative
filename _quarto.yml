@@ -8,11 +8,11 @@ execute:
   freeze: auto
 
 website:
-  title: "Maris Collaborative, LLC"
+  # title: "Maris Collaborative, LLC"
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    title: false
+    # title: false
     logo: logos/mc-logo-hex.png
     logo-alt: "Maris Collaborative with wave icon"
     right: # align navbar items to the right/left/center
