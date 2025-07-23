@@ -20,14 +20,14 @@ website:
         text: Home
       - href: about.qmd
         text: About
+  page-footer:
+    # background: light
+    left: Copyright 2025
+    right: This website is built with [Quarto](https://quarto.org/)
       
 # Use the brand file for all documents in the project
 brand: _brand.yml
 
-page-footer:
-    # background: light
-    left: Copyright 2025
-    right: This website is built with [Quarto](https://quarto.org/)
 
 format:
   html:
