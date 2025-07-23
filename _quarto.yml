@@ -8,11 +8,11 @@ execute:
   freeze: auto
 
 website:
-  title: "Maris Collaborative, LLC"
-  favicon: $brand-small
+  # title: "Maris Collaborative, LLC"
+  favicon: $brand-small-dark
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    logo: $brand-full
+    logo: $brand-large-dark
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home

@@ -9,7 +9,7 @@ logo:
     icon:
       path: logos/icon.png
       alt: "Company icon with abstract shape"
-    icon-light:
+    icon-white:
       path: logos/icon-white.png
       alt: "Company icon with abstract shape in white"
     header:
