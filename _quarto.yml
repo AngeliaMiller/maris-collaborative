@@ -8,11 +8,12 @@ execute:
   freeze: auto
 
 website:
-  # title: "Maris Collaborative, LLC"
+  title: "Maris Collaborative, LLC"
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    logo: logos/mc-logo.png
+    title: false
+    logo: logos/mc-logo-hex.png
     logo-alt: "Maris Collaborative with wave icon"
     right: # align navbar items to the right/left/center
       - href: index.qmd
@@ -22,6 +23,11 @@ website:
       
 # Use the brand file for all documents in the project
 brand: _brand.yml
+
+page-footer:
+    background: light
+    left: Copyright 2025
+    right: This website is built with {{< fa heart title="a heart" >}} and [Quarto](https://quarto.org/)
 
 format:
   html:
@@ -33,4 +39,5 @@ format:
     toc: true
 
 editor: visual
+
 

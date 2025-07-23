@@ -1,11 +1,8 @@
 ---
 title: "Welcome!"
-image: images/headshot.jpg
-image-alt: "Headshot of Angelia Miller"
-image-width: 10em
-about: 
-  template: solana
+page-layout: full
 ---
+![](images/banner-images/index.svg)
 
 I'm so happy you're here!
 
