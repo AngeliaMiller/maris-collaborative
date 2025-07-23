@@ -1,7 +1,8 @@
 ---
 title: "Maris Collaborative, LLC"
 image: logos/full-logo-white.png 
-image-alt: "Headshot of Angelia Miller"
+image-alt: "Full logo with tagline and abstract shape"
+image-width: 10em
 about: 
   template: marquee
 ---
