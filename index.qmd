@@ -1,6 +1,6 @@
 ---
 title: "Welcome!"
-page-layout: full
+
 ---
 ![](images/banner-images/index.svg)
 
