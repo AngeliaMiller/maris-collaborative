@@ -12,7 +12,7 @@ website:
   # favicon: $brand-small-dark
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    logo: $brand-small-dark
+    logo: $brand-images-full
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home

@@ -1,9 +1,9 @@
 ---
 title: "Maris Collaborative, LLC"
-image: images/headshot.jpg 
+image: logos/full-logo-white.png 
 image-alt: "Headshot of Angelia Miller"
 about: 
-  template: solana
+  template: markquee
 ---
 
 Hello, I'm so happy you're here!
