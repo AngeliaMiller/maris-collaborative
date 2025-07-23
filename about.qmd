@@ -1,11 +1,11 @@
 ---
 title: "About"
-favicon: logos/icon.png
-# image: images/headshot.jpg
-# image-alt: "Headshot of Angelia Miller"
-# image-width: 10em
-about: 
+# favicon: logos/icon.png
+about:
   template: solana
+  image: images/headshot.jpg
+  image-alt: "Headshot of Angelia Miller"
+# image-width: 10em
 ---
 
 About
