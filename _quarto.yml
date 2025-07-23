@@ -18,7 +18,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-
+      
+# Use the brand file for all documents in the project
 brand: _brand.yml
 
 format:
@@ -26,7 +27,7 @@ format:
     theme:
       - cosmo
       - brand
-      # - mystyles.scss
+      - styles.css
     css: styles.css
     toc: true
 
