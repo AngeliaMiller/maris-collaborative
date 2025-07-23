@@ -1,0 +1,377 @@
+/*-- scss:defaults --*/
+
+// $theme: "lux" !default;
+
+// Fonts 
+// @import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&display=swap');
+
+//
+// Color system
+//
+
+// $white:    #fff;
+// $cream: #f6f3f0;
+// $warm-gray: #64605f;
+// $brown: #785d4d;
+// $red:     #993300;
+// $orange:  #e68a00;
+// $mustard: #b88603;
+// $light-sage-green: #D1D9CE;
+// $dark-sage-green: #98A08D;
+// $dark-olive-green: #446600; 
+// $olive-green: #558000;
+// $emerald: #1E493A;
+// $teal:    #228177;
+// $light-blue: #cae8ff;
+// $light-light-blue: #ecf2f9;
+
+//$gray-100: #f8f9fa !default;
+//$gray-200: #f7f7f9 !default;
+//$gray-300: #eceeef !default;
+//$gray-400: #ced4da !default;
+//$gray-500: #adb5bd !default;
+//$gray-600: #919aa1 !default;
+//$gray-700: #55595c !default;
+//$gray-800: #343a40 !default;
+// $gray-900: #1a1a1a;
+// $black:    #000;
+
+//$blue:    #007bff !default;
+//$indigo:  #6610f2 !default;
+//$purple:  #6f42c1 !default;
+//$pink:    #e83e8c !default;
+
+//$yellow:  #f0ad4e !default;
+//$green:   #4bbf73 !default;
+//$cyan:    #1f9bcf !default;
+
+// $primary:       $cream;
+// $secondary:     $light-blue;
+// $success:       $dark-olive-green;
+// $info:          $teal;
+// $warning:       $orange;
+// $danger:        $red;
+// $light:         $cream;
+// $dark:          $warm-gray;
+
+//$min-contrast-ratio:   2.3 !default;
+
+// Options
+
+// $enable-rounded:            false !default;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+// scss-docs-start spacer-variables-maps
+//$spacer: 1rem !default;
+//$spacers: (
+//  0: 0,
+//  1: $spacer * .25,
+//  2: $spacer * .5,
+//  3: $spacer,
+//  4: $spacer * 1.5,
+// 5: $spacer * 3,
+//) !default;
+//// scss-docs-end spacer-variables-maps
+
+// Body
+
+// $body-color:                $warm-gray;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+// scss-docs-start border-variables
+//$border-width:                1px !default;
+//$border-widths: (
+//  1: 1px,
+//  2: 2px,
+//  3: 3px,
+//  4: 4px,
+//  5: 5px
+//) !default;
+
+//$border-style:                solid !default;
+// $border-color:                $warm-gray;
+// $border-color-translucent:    rgba($black, .175) !default;
+// scss-docs-end border-variables
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+// $font-family-sans-serif:      "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// $h1-font-size:                2rem !default;
+// $h2-font-size:                1.75rem !default;
+// $h3-font-size:                1.5rem !default;
+// $h4-font-size:                1.25rem !default;
+// $h5-font-size:                1rem !default;
+// $h6-font-size:                .75rem !default;
+// $headings-font-weight:        600 !default;
+// $headings-color:              $brown;
+
+// Tables
+
+//$table-border-color:          rgba(0, 0, 0, .05) !default;
+
+// Buttons
+
+//$btn-line-height:             1.5rem !default;
+//$input-btn-padding-y:         .75rem !default;
+//$input-btn-padding-x:         1.5rem !default;
+//$input-btn-padding-y-sm:      .5rem !default;
+//$input-btn-padding-x-sm:      1rem !default;
+//$input-btn-padding-y-lg:      2rem !default;
+//$input-btn-padding-x-lg:      2rem !default;
+//$btn-font-weight:             600 !default;
+
+// Forms
+
+//$input-line-height:                     1.5 !default;
+// $input-bg:                              $warm-gray;
+// $input-disabled-bg:                     $warm-gray;
+// $input-group-addon-bg:                  $warm-gray;
+
+// Navbar
+
+//$navbar-padding-y:                  1.5rem !default;
+//$navbar-dark-hover-color:           $white !default;
+//$navbar-light-color:                rgba($black, .3) !default;
+//$navbar-light-hover-color:          $gray-900;
+//$navbar-light-active-color:         $gray-900;
+
+// Pagination
+
+//$pagination-border-color:           transparent !default;
+//$pagination-hover-border-color:     $pagination-border-color !default;
+///$pagination-disabled-border-color:  $pagination-border-color !default;
+
+
+
+/*-- scss:rules --*/
+
+
+// Variables
+
+//$web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" !default;
+//@if $web-font-path {
+//  @import url($web-font-path);
+//}
+
+// Navbar
+
+.navbar {
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &-nav {
+    .nav-link {
+      padding-top: .715rem;
+      padding-bottom: .715rem;
+    }
+  }
+
+  &-brand {
+    margin-right: 2rem;
+  }
+}
+
+.navbar-logo {
+  max-height: 75px;
+}
+
+.favicon {
+  max-height: 25px;
+}
+
+//.bg-primary {
+////  background-color: theme-color("primary") !important;
+}
+
+//.bg-light {
+//  border: 1px solid rgba(0, 0, 0, .1);
+
+//  &.navbar-fixed-top {
+// border-width: 0 0 1px;
+//  }
+
+  &.navbar-bottom-top {
+    border-width: 1px 0 0;
+  }
+}
+
+.nav-item {
+  margin-right: 0.5rem;
+}
+
+// Buttons
+
+//.btn {
+//  font-size: $font-size-sm;
+//  text-transform: uppercase;
+
+//  &-sm {
+//    font-size: 10px;
+//  }
+
+//  &-warning {
+//    &,
+//    &:hover,
+//    &:not([disabled]):not(.disabled):active,
+//    &:focus {
+//      color: $white;
+//    }
+//  }
+//}
+
+// .btn-outline-secondary {
+//  border-color: $dark-sage-green;
+//  color: $dark-sage-green;
+
+//  &:not([disabled]):not(.disabled):hover,
+//  &:not([disabled]):not(.disabled):focus,
+//  &:not([disabled]):not(.disabled):active {
+//    background-color: $light-sage-green;
+//    border-color: $light-sage-green;
+//    color: $white;
+//  }
+
+//  &:not([disabled]):not(.disabled):focus {
+//    box-shadow: 0 0 0 .2rem rgba($light-sage-green, .5);
+//  }
+// }
+
+/// [class*="btn-outline-"] {
+//  border-width: 2px;
+//}
+
+//.border-secondary {
+//  border: 1px solid $light-sage-green !important;
+//}
+
+//a {
+//  color: $dark-olive-green;
+//  text-decoration: underline;
+//}
+
+//.bi {
+//   color: $dark-sage-green;
+//}
+
+//.about-links {
+//  color: $dark-sage-green;
+//  border: none;
+//}
+
+//.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+//    width: 26px;
+//    height: 26px;
+//    color: $mustard;
+//    opacity: 1;
+//}
+
+// Typography
+
+//body {
+//  font-weight: 200;
+//  letter-spacing: 1px;
+//}
+
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6 {
+//  text-transform: uppercase;
+//  letter-spacing: 3px;
+//}
+
+
+
+//.title {
+//  color: $emerald;
+//}
+
+//.text-secondary {
+//  color: $body-color !important;
+//}
+
+// Tables
+
+//th {
+//  font-size: $font-size-sm;
+//  text-transform: uppercase;
+//}
+
+//.table {
+//  th,
+//  td {
+//    padding: 1.5rem;
+//  }
+
+//  &-sm {
+//    th,
+//    td {
+//      padding: .75rem;
+//    }
+//  }
+//}
+
+// Navs
+
+//.dropdown-menu {
+//  font-size: $font-size-sm;
+//  text-transform: none;
+//}
+
+//.menu-text {
+//  color: $mustard;
+//}
+
+// Indicators
+
+//.badge {
+//  padding-top: .28rem;
+
+//  &-pill {
+//    border-radius: 10rem;
+//  }
+
+//  &.bg-secondary,
+//  &.bg-light {
+//    color: $dark;
+//  }
+//}
+
+// Containers
+
+//.list-group-item {
+//  h1,
+//  h2,
+//  h3,
+//  h4,
+//  h5,
+//  h6,
+//  .h1,
+//  .h2,
+//  .h3,
+//  .h4,
+//  .h5,
+//  .h6 {
+//    color: inherit;
+//  }
+//}
+
+//.card {
+//  &-title,
+//  &-header {
+//    color: inherit;
+//  }
+//}
+
