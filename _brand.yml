@@ -19,14 +19,14 @@ logo:
       path: logos/header-white.png
       alt: "Company name with logo in white"
     full: 
-      path: logos/full-logo
+      path: logos/full-logo.svg
       alt: "Full company logo with tagline"
     full-white: 
-      path: logos/full-logo-white
+      path: logos/full-logo-white.svg
       alt: "Full company logo with tagline in white"
   small: 
     light: icon-white
-    dark: full
+    dark: icon
   medium: 
     light: header-white
     dark: header
