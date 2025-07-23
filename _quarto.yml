@@ -9,10 +9,10 @@ execute:
 
 website:
   # title: "Maris Collaborative, LLC"
-  # favicon: $brand-small-dark
+  favicon: $brand-logo-small
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    logo: $brand-logo-large-dark
+    logo: $brand-logo-medium
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home

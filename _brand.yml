@@ -5,7 +5,7 @@ meta:
     github: https://github.com/AngeliaMiller/maris-collaborative
 
 logo: 
-  images: 
+  # images: 
   #   icon:
   #     path: logos/icon.png
   #     alt: "Company icon with abstract shape"
@@ -18,21 +18,21 @@ logo:
   #   header-white:
   #     path: logos/header-white.png
   #     alt: "Company name with logo in white"
-    full:
-      path: logos/full-logo-sm.png
-      alt: "Full company logo"
+    # full:
+    #   path: logos/full-logo-sm.png
+    #   alt: "Full company logo"
   #   full-white: 
   #     path: logos/full-logo-white.svg
   #     alt: "Full company logo with tagline in white"
-  # small: 
+  small: logos/icon.png
   #   light: icon-white
   #   dark: icon
-  # medium: 
+  medium: logos/full-logo-sm.png
   #   light: header-white
   #   dark: header
-  large:
+  large: logos/full-logo-white.svg
   #   light: full-white
-    dark: full
+    # dark: full
 
 color:
   palette:
