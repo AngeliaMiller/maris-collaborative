@@ -22,13 +22,13 @@ typography:
       source: google
     - family: IBM Plex Mono
       source: google
-    - family: Rubik
+    - family: Lora
       source: google
   base:
     family: Open Sans
     line-height: 1.6
   headings:
-    family: Rubik
+    family: Lora
     weight: normal
   link:
     color: dark-blue
