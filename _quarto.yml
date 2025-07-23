@@ -12,8 +12,8 @@ website:
   favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
   navbar:
-    logo: logos/full-logo.png
-    logo-alt: "Maris Collaborative with wave icon and tagline"
+    logo: images/full-logo.png
+    logo-alt: "Maris Collaborative with wave icon"
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home
