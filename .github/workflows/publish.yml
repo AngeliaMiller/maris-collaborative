@@ -1,48 +1,29 @@
-meta:
-  name: Maris Collaborative, LLC
-  link:
-    github: https://github.com/AngeliaMiller/maris-collaborative
+on:
+  push:
+    branches: main
 
-color:
-  palette:
-    dark-blue: "#012339"
-    teal: "#276f75"
-    light-blue: "#a0c5c9"
-    yellow: "#dcb049"
-    blue: "#223d50"
-    white: "#f3eee8"
-  primary: blue
-  success: teal
-  warning: yellow
-  danger: light-blue
+name: Render and Publish
 
-typography:
-  fonts:
-    - family: Open Sans
-      source: google
-    - family: IBM Plex Mono
-      source: google
-    - family: Rubik
-      source: google
-  base:
-    family: Open Sans
-    line-height: 1.6
-  headings:
-    family: Rubik
-    weight: normal
-  link:
-    color: dark-blue
-  monospace:
-    family: IBM Plex Mono
-    size: 1em
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2 
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true 
+          # uncomment below and fill to pin a version
+          # version: 0.9.600
+      
+      # add software dependencies here
 
-defaults:
-  bootstrap:
-    # bootstrap variable definitions
-  quarto:
-    format:
-      # basic format-specific settings
-      html:
-      revealjs:
-  shiny:
-    # shiny specific settings
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
