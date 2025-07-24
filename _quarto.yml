@@ -21,6 +21,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: contact.qmd
+        text: Get in touch! 
     tools:
       - icon: "linkedin"
         href: https://www.linkedin.com/in/angeliamarie4/
@@ -30,11 +32,11 @@ website:
             href: https://github.com/AngeliaMiller/maris-collaborative
           - text: Report a Bug
             href: https://github.com/AngeliaMiller/maris-collaborative/issues
-      - icon: envelope
-        href: mailto:amiller@mariscollaborative.com
+      # - icon: envelope
+        # href: mailto:amiller@mariscollaborative.com
       
   page-footer:
-    # background: light
+    background: light
     left: Copyright 2025
     right: This website is built with [Quarto](https://quarto.org/)
       
