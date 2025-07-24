@@ -1,0 +1,72 @@
+---
+title: "Let's work together"
+description: "I'd love to hear from you!"
+title-block-banner: true
+# title-block-banner-color: "#276f75"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 200px;
+      }
+      </style>
+# about: 
+#   template: trestles
+#   image: images/headshot.jpg
+#   image-shape: round
+#   image-width: 10em
+#   links: 
+#     - href: mailto:amiller@mariscollaborative.com
+#       icon: envelope
+#       text: Email
+#     - href: https://www.linkedin.com/in/angeliamarie4/
+#       icon: "linkedin"
+#       text: LinkedIn
+#     - href: https://github.com/AngeliaMiller
+#       icon: github
+#       text: GitHub
+---
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/headshot-circle.png){fig-alt="A picture of Angelia Miller in a circle" fig-align="center" width=50%}
+
+
+<center>Angelia Miller<br>Principal Scientist<br>[Email Me](mailto:amiller@mariscollaborative.com) | [GitHub](https://github.com/AngeliaMiller) | [LinkedIn](https://www.linkedin.com/in/angeliamarie4/)</center>
+:::
+  
+::: {.g-col-6}
+
+Use the contact form below to email me or directly book a Zoom call with me using my [Calendly booking page](https://calendly.com/maris-collaborative/30min).
+    <br> 
+    <iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSfHyJlBAjQJO9Tz5hiwTvrTrvR25omv3JcwlgOZqPhtkLdC4w" width="600" height="750" frameborder="0" marginheight="0" marginwidth="0">
+
+Loading…
+
+</iframe>
+
+:::
+  
+:::  
+
+<!-- ::: grid style =="--bs-columns: 2;" -->
+
+<!-- ::: g-col-6 -->
+<!-- <br> -->
+
+<!-- Use the contact form below to email me or directly book a Zoom call with me using my [Calendly booking page](https://calendly.com/maris-collaborative/30min). -->
+<!-- <br> -->
+
+<!-- Angelia Miller<br>Principal Scientist<br>[Email Me](mailto:amiller@mariscollaborative.com) \| [GitHub](https://github.com/AngeliaMiller) \| [LinkedIn](https://www.linkedin.com/in/angeliamarie4/) -->
+<!-- ::: -->
+
+<!-- ::: g-col-4 -->
+<!-- <iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSfHyJlBAjQJO9Tz5hiwTvrTrvR25omv3JcwlgOZqPhtkLdC4w" width="600" height="750" frameborder="0" marginheight="0" marginwidth="0"> -->
+
+<!-- Loading… -->
+
+<!-- </iframe> -->
+<!-- ::: -->
+<!-- ::::: -->
