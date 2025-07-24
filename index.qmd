@@ -1,6 +1,27 @@
 ---
 title: ""
-title-block-banner: images/banner-images/index.svg
+title-block-banner: "#00000000"
+# title-block-banner-color: "rgba(255, 255, 255, 0.9)"
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .quarto-title-block .quarto-title-banner {
+        height: 0; /* hide */
+      }
+      #title-block-header {
+        background: 
+          /* image */ 
+          url(images/banner-images/index.png);
+        background-size: cover;
+        background-position-y: center;
+        height: 450px;
+        opacity: 1; /* image opacity, lower means lighter */
+        z-index: -1;
+      }
+      </style>
 page-layout: full
 ---
 
