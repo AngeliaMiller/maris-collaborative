@@ -13,8 +13,8 @@ website:
   site-url: "https://www.mariscollaborative.com"
   navbar:
     title: false
-    logo: logos/mc-logo-hex.png
-    logo-alt: "Maris Collaborative with wave icon"
+    #logo: logos/mc-logo-hex.png
+    #logo-alt: "Maris Collaborative with wave icon"
     right: # align navbar items to the right/left/center
       - href: index.qmd
         text: Home

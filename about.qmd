@@ -7,7 +7,6 @@ about:
 
 <!-- ![Angelia Miller](images/headshot.jpg){fig-align="left"} -->
 
-About
 
 I'm currently in the process of developing this website. Please check back later!
 
