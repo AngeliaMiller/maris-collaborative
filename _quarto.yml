@@ -22,10 +22,10 @@ website:
       - href: about.qmd
         text: About
       - href: contact.qmd
-        text: Get in touch! 
+        text: Contact 
     tools:
-      - icon: "linkedin"
-        href: https://www.linkedin.com/in/angeliamarie4/
+      # - icon: "linkedin"
+        # href: https://www.linkedin.com/in/angeliamarie4/
       - icon: github
         menu:
           - text: Source Code
