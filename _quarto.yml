@@ -34,7 +34,7 @@ website:
             href: https://github.com/AngeliaMiller/maris-collaborative/issues
       # - icon: envelope
         # href: mailto:amiller@mariscollaborative.com
-      
+  google-analytics: "G-78H09DJ36Z"
   page-footer:
     background: light
     left: Copyright 2025

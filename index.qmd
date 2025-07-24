@@ -31,3 +31,13 @@ I'm so happy you're here!
 
 I'm currently in the process of developing this website. Please check back later!
 
+<!-- test -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-78H09DJ36Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-78H09DJ36Z');
+</script>
