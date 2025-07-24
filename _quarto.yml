@@ -21,6 +21,18 @@ website:
         text: Home
       - href: about.qmd
         text: About
+    tools:
+      - icon: "linkedin"
+        href: https://www.linkedin.com/in/angeliamarie4/
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/AngeliaMiller/maris-collaborative
+          - text: Report a Bug
+            href: https://github.com/AngeliaMiller/maris-collaborative/issues
+      - icon: envelope
+        href: mailto:amiller@mariscollaborative.com
+      
   page-footer:
     # background: light
     left: Copyright 2025
