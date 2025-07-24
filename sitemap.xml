@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.mariscollaborative.com/index.html</loc>
-    <lastmod>2025-07-24T17:25:17.345Z</lastmod>
+    <loc>https://www.mariscollaborative.com/contact.html</loc>
+    <lastmod>2025-07-24T20:39:37.859Z</lastmod>
   </url>
   <url>
     <loc>https://www.mariscollaborative.com/about.html</loc>
-    <lastmod>2025-07-24T17:25:17.260Z</lastmod>
+    <lastmod>2025-07-24T20:39:37.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mariscollaborative.com/index.html</loc>
+    <lastmod>2025-07-24T20:39:37.945Z</lastmod>
   </url>
 </urlset>
