@@ -11,7 +11,7 @@ website:
   title: "Maris Collaborative, LLC"
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
-  repo-url: https://github.com/AngeliaMiller/maris-collaborative
+  # repo-url: "https://github.com/AngeliaMiller/maris-collaborative"
   navbar:
     title: false
     #logo: logos/mc-logo-hex.png
@@ -54,8 +54,7 @@ format:
     # css: styles.css
     toc: true
     include-in-header: 
-      - text: <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-78H09DJ36Z"></script>
+      - text: <script async src="https://www.googletagmanager.com/gtag/js?id=G-78H09DJ36Z"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
