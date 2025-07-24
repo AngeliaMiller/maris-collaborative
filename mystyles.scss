@@ -139,7 +139,7 @@ $teal:    #276f75;
 // Navbar
 
 $navbar-padding-y:                0.5rem !default;
-$navbar-bg:                       $teal;
+//$navbar-bg:                       $teal;
 //$navbar-dark-hover-color:           $white !default;
 //$navbar-light-color:                rgba($black, .3) !default;
 //$navbar-light-hover-color:          $gray-900;
@@ -183,7 +183,7 @@ $navbar-bg:                       $teal;
 }
 
 .navbar-logo {
-  max-height: 50px;
+  max-height: 75px;
 }
 
 .favicon {
