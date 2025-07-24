@@ -24,10 +24,10 @@ logo:
   #   full-white: 
   #     path: logos/full-logo-white.svg
   #     alt: "Full company logo with tagline in white"
-  small: logos/mc-logo-hex.png # wave in blue
+  small: logos/icon.png # wave in blue
   #   light: icon-white
   #   dark: icon
-  # medium: logos/mc-logo.png # wave in white and text in light blue on dark blue background
+  medium: logos/mc-logo-hex.png # wave in white and text in light blue on dark blue background
   #   light: header-white
   #   dark: header
   # large: logos/full-logo-white.svg # full logo with tagline on white background
@@ -42,8 +42,8 @@ color:
     yellow: "#dcb049"
     blue: "#223d50"
     white: "#f3eee8"
-  primary: blue
-  success: teal
+  primary: teal
+  success: blue
   warning: yellow
   danger: light-blue
 
