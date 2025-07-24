@@ -71,9 +71,26 @@ ul.task-list li input[type="checkbox"] {
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(images/banner-images/index.svg);
-background-size: cover;
+        background: #00000000;
       }
+</style>
+<style>
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  color: rgba(255, 255, 255, 0.9);
+}
+.quarto-title-block .quarto-title-banner {
+  height: 0; /* hide */
+}
+#title-block-header {
+  background:
+    /* image */
+    url(images/banner-images/index.png);
+  background-size: cover;
+  background-position-y: center;
+  height: 450px;
+  opacity: 1; /* image opacity, lower means lighter */
+  z-index: -1;
+}
 </style>
 
 
