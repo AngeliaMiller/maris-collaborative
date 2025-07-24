@@ -11,6 +11,7 @@ website:
   title: "Maris Collaborative, LLC"
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
+  repo-url: https://github.com/AngeliaMiller/maris-collaborative
   navbar:
     title: false
     #logo: logos/mc-logo-hex.png
