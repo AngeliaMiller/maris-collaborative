@@ -32,6 +32,7 @@ brand: _brand.yml
 
 format:
   html:
+    page-layout: full
     theme:
       - cosmo
       - brand

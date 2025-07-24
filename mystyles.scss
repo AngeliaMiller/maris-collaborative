@@ -9,7 +9,7 @@
 // Color system
 //
 
-$white:    #276f75;//#fff;
+$white:    #fff;
 // $cream: #f6f3f0;
 // $warm-gray: #64605f;
 // $brown: #785d4d;
@@ -21,7 +21,7 @@ $white:    #276f75;//#fff;
 // $dark-olive-green: #446600; 
 // $olive-green: #558000;
 // $emerald: #1E493A;
-// $teal:    #228177;
+$teal:    #276f75;
 // $light-blue: #cae8ff;
 // $light-light-blue: #ecf2f9;
 
@@ -139,7 +139,7 @@ $white:    #276f75;//#fff;
 // Navbar
 
 $navbar-padding-y:                0.5rem !default;
-$navbar-bg:                       $white;
+$navbar-bg:                       $teal;
 //$navbar-dark-hover-color:           $white !default;
 //$navbar-light-color:                rgba($black, .3) !default;
 //$navbar-light-hover-color:          $gray-900;
