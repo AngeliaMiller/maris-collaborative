@@ -30,7 +30,7 @@ page-layout: full
 <!---------------------------------------------->
 <!---------------- START banner ---------------->
 ::: {.column-screen}
-![](images/banner-images/index_new.svg){width=100%}
+![](images/banner-images/index_two.svg){width=100%}
 :::
 <!---------------- END banner ---------------->
 <!-------------------------------------------->
