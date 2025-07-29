@@ -1,33 +1,39 @@
 ---
 title: ""
-title-block-banner: "#00000000"
-title-block-banner-color: "rgba(255, 255, 255, 0.9)"
-include-in-header:
-  - text: |
-      <style>
-      #title-block-header.quarto-title-block.default .quarto-title-meta {
-        color: rgba(255, 255, 255, 0.9);
-      }
-      .quarto-title-block .quarto-title-banner {
-        height: 0; /* hide */
-      }
-      #title-block-header {
-        background: 
-          url(images/banner-images/index_two.svg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-origin: border-box;
-        background-position-y: 15%;
-        height: 350px;
-        opacity: 1; /* image opacity, lower means lighter */
-        
-      }
-      </style>
-# page-layout: full
+# title-block-banner: "#00000000"
+# title-block-banner-color: "rgba(255, 255, 255, 0.9)"
+# include-in-header:
+#   - text: |
+#       <style>
+#       #title-block-header.quarto-title-block.default .quarto-title-meta {
+#         color: rgba(255, 255, 255, 0.9);
+#       }
+#       .quarto-title-block .quarto-title-banner {
+#         height: 0; /* hide */
+#       }
+#       #title-block-header {
+#         background: 
+#           url(images/banner-images/index_two.svg);
+#         background-size: 100%;
+#         background-repeat: no-repeat;
+#         background-origin: border-box;
+#         background-position-y: 15%;
+#         height: 350px;
+#         opacity: 1; /* image opacity, lower means lighter */
+#         
+#       }
+#       </style>
+page-layout: full
 
 ---
 
-<!-- ![](images/banner-images/index.svg){width=100%} -->
+<!---------------------------------------------->
+<!---------------- START banner ---------------->
+::: {.column-screen}
+![](images/banner-images/index_new.svg){width=100%}
+:::
+<!---------------- END banner ---------------->
+<!-------------------------------------------->
 
 I'm so happy you're here!
 
