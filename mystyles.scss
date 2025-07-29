@@ -183,6 +183,7 @@ video {
    
 }
 
+
 // Navbar
 
 .navbar {
@@ -210,6 +211,11 @@ video {
   max-height: 25px;
 }
 
+// padding for navbar and banner image distance
+.nav-fixed.quarto-light{
+  padding-top: 75px !important;
+}
+
 //.bg-primary {
 //background-color: theme-color("primary") !important;
 //}
@@ -229,6 +235,7 @@ video {
 .nav-item {
   margin-right: 0.5rem;
 }
+
 
 // Buttons
 

@@ -13,7 +13,7 @@ include-in-header:
       }
       #title-block-header {
         background: 
-          url(images/banner-images/index.png);
+          url(images/banner-images/index_two.svg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-origin: border-box;
