@@ -163,6 +163,26 @@ $navbar-padding-y:                0.5rem !default;
 //  @import url($web-font-path);
 //}
 
+/// make images responsive to screen sizes
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+//// Title Block Header
+@media (max-width: 410px) { 
+/* Styles for screen with max width of 410px */
+    #title-block-header { 
+        display: flex;
+        box-sizing: content-box;
+        align-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+    }
+   
+}
+
 // Navbar
 
 .navbar {

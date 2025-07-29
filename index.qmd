@@ -13,12 +13,14 @@ include-in-header:
       }
       #title-block-header {
         background: 
-          url(images/banner-images/index_two.svg);
-        background-size: cover;
+          url(images/banner-images/index.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-origin: border-box;
         background-position-y: 15%;
         height: 350px;
         opacity: 1; /* image opacity, lower means lighter */
-        z-index: -1;
+        
       }
       </style>
 # page-layout: full
