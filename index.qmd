@@ -1,7 +1,7 @@
 ---
 title: ""
 title-block-banner: "#00000000"
-# title-block-banner-color: "rgba(255, 255, 255, 0.9)"
+title-block-banner-color: "rgba(255, 255, 255, 0.9)"
 include-in-header:
   - text: |
       <style>
@@ -13,19 +13,19 @@ include-in-header:
       }
       #title-block-header {
         background: 
-          /* image */ 
-          url(images/banner-images/index.png);
+          url(images/banner-images/index_two.svg);
         background-size: cover;
-        background-position-y: center;
-        height: 450px;
+        background-position-y: 15%;
+        height: 350px;
         opacity: 1; /* image opacity, lower means lighter */
         z-index: -1;
       }
       </style>
-page-layout: full
+# page-layout: full
+
 ---
 
-<!-- ![](images/banner-images/index.svg) -->
+<!-- ![](images/banner-images/index.svg){width=100%} -->
 
 I'm so happy you're here!
 

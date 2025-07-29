@@ -8,7 +8,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Maris Collaborative, LLC"
+  title: "Maris Collaborative"
   # favicon: logos/icon.png
   site-url: "https://www.mariscollaborative.com"
   # repo-url: "https://github.com/AngeliaMiller/maris-collaborative"
@@ -18,7 +18,6 @@ website:
     #logo-alt: "Maris Collaborative with wave icon"
     right: # align navbar items to the right/left/center
       - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
       - href: contact.qmd
