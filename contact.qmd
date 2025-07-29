@@ -28,28 +28,34 @@ include-in-header:
 #       text: GitHub
 ---
 
+<!---------------- START intro text ---------------->
 ::: {.grid}
 
-::: {.g-col-4}
+::: {.g-row-cols-1 .g-col-4}
 ![](images/headshot-circle.png){fig-alt="A picture of Angelia Miller in a circle" fig-align="center" width=50%}
 
 
 <center>Angelia Miller<br>Principal Scientist<br>[Email Me](mailto:amiller@mariscollaborative.com) | [GitHub](https://github.com/AngeliaMiller) | [LinkedIn](https://www.linkedin.com/in/angeliamarie4/)</center>
 :::
   
-::: {.g-col-6}
+::: {.g-row-cols-1 .g-col-6}
 
 Use the contact form below to email me or directly book a Zoom call with me using my [Calendly booking page](https://calendly.com/maris-collaborative/30min).
     <br> 
-    <iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSfHyJlBAjQJO9Tz5hiwTvrTrvR25omv3JcwlgOZqPhtkLdC4w" width=100% height=750 frameborder="0" marginheight="0" marginwidth="0">
+:::
+:::
+</br>
+<!---------------- END intro text ---------------->
+
+<!---------------- START contact form ---------------->
+
+<iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSfHyJlBAjQJO9Tz5hiwTvrTrvR25omv3JcwlgOZqPhtkLdC4w" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">
 
 Loading…
 
 </iframe>
 
-:::
-  
-:::  
+<!---------------- END contact form ---------------->
 
 <!-- ::: grid style =="--bs-columns: 2;" -->
 
