@@ -46,6 +46,8 @@ color:
   success: blue
   warning: yellow
   danger: teal
+  light: white
+  dark: dark-blue
 
 typography:
   fonts:

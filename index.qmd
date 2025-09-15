@@ -24,7 +24,10 @@ title: ""
 #       }
 #       </style>
 page-layout: full
-
+format:
+  html:
+    grid:
+      sidebar-width: 450px
 ---
 
 <!---------------------------------------------->
@@ -35,7 +38,89 @@ page-layout: full
 <!---------------- END banner ---------------->
 <!-------------------------------------------->
 
-I'm so happy you're here!
 
-I'm currently in the process of developing this website. Please check back later!
+<!---------------- START what we do section (white div) ---------------->
+
+
+<br>
+As ecosystems change and technological advancements are made, it is imperative that data streams and analytical toolboxes adapt and keep pace. <br>
+<br>
+At Maris Collaborative, I aim to work closely with clients to:
+<br>
+
+
+::: {.cream-div}
+<!----------- START Data row ----------->
+::: {.center-text}
+::: {.grid}
+::: {.g-col-12 .g-col-md-3} 
+::: {.dark-teal-text .medium-body-text}
+{{< fa chart-line title="Line plot" >}}
+:::
+::: {.dark-teal-text .med-sm-body-text}
+_Maximize data_
+:::
+:::
+::: {.g-col-12 .g-col-md-9}
+:::{.dark-blue-text .small-body-text} 
+We welcome, and create space & place. We engage researchers who want to work better and collaborate through empathy, art, storytelling, and technology.
+:::
+:::
+:::
+:::
+<!----------- END Data column ----------->
+
+<!----------- START Workflow column ----------->
+::: {.center-text}
+::: {.grid}
+::: {.g-col-12 .g-col-md-3} 
+::: {.dark-teal-text .medium-body-text}
+{{< fa list-check title="Check list" >}}
+:::
+::: {.dark-teal-text .med-sm-body-text}
+_Transform workflows_
+:::
+:::
+::: {.g-col-12 .g-col-md-9}
+:::{.dark-blue-text .small-body-text} 
+We leverage on reproducible and flexible workflows. We empower researchers by growing their confidence and abilities as they put what they learn into practice quickly. 
+:::
+:::
+:::
+:::
+<!----------- END Workflow column ----------->
+
+<!----------- START Decisions column ----------->
+::: {.center-text}
+::: {.grid}
+::: {.g-col-12 .g-col-md-3} 
+::: {.dark-teal-text .medium-body-text}
+{{< fa users-between-lines title="Users" >}}
+:::
+::: {.dark-teal-text .med-sm-body-text}
+_Empower decisions_
+:::
+:::
+::: {.g-col-12 .g-col-md-9} 
+:::{.dark-blue-text .small-body-text} 
+We leverage common workflows & tools, and inspire broader shifts. We amplify progress through collaboration and reuse, celebrating people and small wins that accumulate.
+:::
+:::
+<!----------- END Decisions column ----------->
+:::
+:::
+<!---------------- END Intro section ---------------->
+<!-------------------------------------------------------------------->
+:::
+
+<!------------------------------------------------------------------------------------>
+<!---------------- START building section ---------------->
+<br>
+By letting your data lead the solution, rather than working to fit your data into a solution, we can build resilient communities where the <span class="yellow-text">_data meets decision._</span>
+
+::: {.medium-body-text}
+[**Let's start building!**](contact.qmd)
+:::
+
+<!---------------- END building section---------------->
 

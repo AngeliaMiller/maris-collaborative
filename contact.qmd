@@ -1,5 +1,5 @@
 ---
-title: "Let's work together"
+title: "Let's build together"
 description: "I'd love to hear from you!"
 title-block-banner: true
 # title-block-banner-color: "#276f75"

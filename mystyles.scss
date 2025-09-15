@@ -6,27 +6,21 @@
 // @import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&display=swap');
 
 //
-// Color system
-//
+// Colors (define Sass color variables here; syntax = `$varName: value;`)
 
-$white:    #fff;
-// $cream: #f6f3f0;
-// $warm-gray: #64605f;
-// $brown: #785d4d;
-// $red:     #993300;
-// $orange:  #e68a00;
-// $mustard: #b88603;
-// $light-sage-green: #D1D9CE;
-// $dark-sage-green: #98A08D;
-// $dark-olive-green: #446600; 
-// $olive-green: #558000;
-// $emerald: #1E493A;
-//$teal:    #276f75;
-// $light-blue: #cae8ff;
-// $light-light-blue: #ecf2f9;
+ $white:    #fff;
+ $cream: #f3eee8;
+ $warm-gray: #64605f;
+ $mustard: #dcb049;
+ $dark-blue: #012339;
+ $dark-teal: #223d50; 
+ $teal:    #276f75;
+ $light-blue: #a0c5c9;
+ $medium-gray1: #ced4da;
+ $medium-gray2: #adb5bd;
 
-//$gray-100: #f8f9fa !default;
-//$gray-200: #f7f7f9 !default;
+//$gray-1: #f8f9fa !default;
+//$gray-2: #f7f7f9 !default;
 //$gray-300: #eceeef !default;
 //$gray-400: #ced4da !default;
 //$gray-500: #adb5bd !default;
@@ -36,23 +30,15 @@ $white:    #fff;
 // $gray-900: #1a1a1a;
 // $black:    #000;
 
-//$blue:    #007bff !default;
-//$indigo:  #6610f2 !default;
-//$purple:  #6f42c1 !default;
-//$pink:    #e83e8c !default;
-
-//$yellow:  #f0ad4e !default;
-//$green:   #4bbf73 !default;
-//$cyan:    #1f9bcf !default;
-
 // $primary:       $cream;
 // $secondary:     $light-blue;
-// $success:       $dark-olive-green;
+// $success:       $teal;
 // $info:          $teal;
-// $warning:       $orange;
+// $warning:       $mustard;
 // $danger:        $red;
 // $light:         $cream;
 // $dark:          $warm-gray;
+$link-color: $teal;
 
 //$min-contrast-ratio:   2.3 !default;
 
@@ -140,7 +126,7 @@ $white:    #fff;
 
 $navbar-padding-y:                0.5rem !default;
 //$navbar-bg:                       $teal;
-//$navbar-dark-hover-color:           $white !default;
+$navbar-hover-color:           $teal !default;
 //$navbar-light-color:                rgba($black, .3) !default;
 //$navbar-light-hover-color:          $gray-900;
 //$navbar-light-active-color:         $gray-900;
@@ -163,14 +149,14 @@ $navbar-padding-y:                0.5rem !default;
 //  @import url($web-font-path);
 //}
 
-/// make images responsive to screen sizes
+/// make images responsive to screen sizes (identified by "Inspect"ing the site)
 img,
 picture,
 video {
   max-width: 100%;
 }
 
-//// Title Block Header
+//// Title Block Header (identified by "Inspect"ing the site)
 @media (max-width: 410px) { 
 /* Styles for screen with max width of 410px */
     #title-block-header { 
@@ -305,10 +291,10 @@ video {
 
 // Typography
 
-//body {
-//  font-weight: 200;
-//  letter-spacing: 1px;
-//}
+body { // set body text size & line height
+  line-height: 1.5; // min 1.5 suggested for assistive tech
+  font-size: 17px;
+}
 
 //h1,
 //h2,
@@ -358,9 +344,6 @@ video {
 //  text-transform: none;
 //}
 
-//.menu-text {
-//  color: $mustard;
-//}
 
 // Indicators
 
@@ -377,29 +360,90 @@ video {
 //  }
 //}
 
-// Containers
+//////////// Class selectors (self-defined) ////////////
 
-//.list-group-item {
-//  h1,
-//  h2,
-//  h3,
-//  h4,
-//  h5,
-//  h6,
-//  .h1,
-//  .h2,
-//  .h3,
-//  .h4,
-//  .h5,
-//  .h6 {
-//    color: inherit;
-//  }
-//}
+// large-sized text
+.large-body-text { 
+  font-size: 30px;
+}
 
-//.card {
-//  &-title,
-//  &-header {
-//    color: inherit;
-//  }
-//}
+// medium-sized text
+.medium-body-text { 
+  font-size: 25px;
+}
+
+// medium/small-sized text
+.med-sm-body-text { 
+  font-size: 18px;
+}
+
+// small-sized text
+.small-body-text { 
+  font-size: 16px;
+}
+
+// styled image caption text
+.caption-text { 
+  font-size: 15px;
+  color: $warm-gray;
+}
+
+// teal text
+.teal-text { 
+  color: $teal;
+}
+
+// dark teal text
+.dark-teal-text { 
+  color: $dark-teal;
+}
+
+// dark blue text
+.dark-blue-text { 
+  color: $dark-teal;
+}
+
+ // gray text
+.medium-gray1-text{
+  color: $medium-gray1;
+}
+
+ // yellow text
+.yellow-text{
+  color: $mustard;
+}
+
+// center text
+.center-text { 
+  text-align: center;
+}
+
+// right-align elements
+.right-align { 
+  text-align: right;
+}
+
+// used to create white div 
+.white-div { 
+  background-color: $white;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding-top: 1%; // percentages necessary for content to adjust with viewport
+  padding-bottom: 1%;
+  padding-right: 10%; 
+  padding-left: 10%; 
+}
+
+// used to create light gray div on landing page
+.cream-div { 
+  background-color: $cream;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 10%; 
+  padding-left: 10%; 
+}
 
