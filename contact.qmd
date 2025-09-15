@@ -20,24 +20,14 @@ title: ""
 <!---------------- END banner ---------------->
 <!-------------------------------------------->
 
+
 <!---------------- START intro text ---------------->
-::: {.grid}
 
-::: {.g-row-cols-1 .g-col-4}
-![](images/headshot-circle.png){fig-alt="A picture of Angelia Miller in a circle" fig-align="center" width=50%}
+Please use the contact form below to email me or directly book a Google Meet call with me using my [Calendly booking page](https://calendly.com/maris-collaborative/30min).
+<br> 
 
-
-<center>Angelia Miller<br>Principal Scientist<br>[Email Me](mailto:amiller@mariscollaborative.com) | [GitHub](https://github.com/AngeliaMiller) | [LinkedIn](https://www.linkedin.com/in/angeliamarie4/)</center>
-:::
-  
-::: {.g-row-cols-1 .g-col-6}
-
-Use the contact form below to email me or directly book a Zoom call with me using my [Calendly booking page](https://calendly.com/maris-collaborative/30min).
-    <br> 
-:::
-:::
-</br>
 <!---------------- END intro text ---------------->
+
 
 <!---------------- START contact form ---------------->
 
