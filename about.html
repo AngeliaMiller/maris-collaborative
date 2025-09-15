@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-3f24ab4c21031d260da060406ea2d5e3.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-78c1dc407761359222a3fa0fdd2ca87a.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -152,24 +153,35 @@ gtag('config', 'G-78H09DJ36Z', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">About</h1>
 </div>
+
+
+
 <div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-</header> 
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+  
+
+
+</header>
+
+
 <!-- ![Angelia Miller](images/headshot.jpg){fig-align="left"} -->
 <p>I’m currently in the process of developing this page. Please check back later!</p>
 <!-- Science does not effect in silos, and neither should we.-->
-<!---------------- START About text ---------------->
-<div class="grid">
+<p><br> <!---------------- START About text ----------------> ::: {.grid}</p>
 <div class="g-row-cols-1 g-col-4">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -180,19 +192,20 @@ gtag('config', 'G-78H09DJ36Z', { 'anonymize_ip': true});
 <div class="g-row-cols-1 g-col-6">
 <p><a href="https://angeliamiller.github.io">Angelia Miller</a> is the owner and principal consultant for Maris Collaborative, LLC. She is a fisheries scientist by trade and an advocate for open and applied sciences. She finds joy in building reproducible and streamlined workflows in the data throughout the data life cycle. Email at <a href="mailto:amiller@mariscollaborative.com">amiller@mariscollaborative.com</a></p>
 </div>
-</div>
-<p><br> <!---------------- END About text ----------------></p>
+<p>::: <br> <!---------------- END About text ----------------></p>
 
 
-</main></div>
-    </div>
-    <img src="images/headshot.jpg" class="about-image
-  rounded " style="width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
