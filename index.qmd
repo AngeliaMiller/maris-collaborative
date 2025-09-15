@@ -33,7 +33,7 @@ format:
 <!---------------------------------------------->
 <!---------------- START banner ---------------->
 ::: {.column-screen}
-![](images/banner-images/index_two.svg){width=100%}
+![](images/banner-images/index_banner.svg){width=100%}
 :::
 <!---------------- END banner ---------------->
 <!-------------------------------------------->

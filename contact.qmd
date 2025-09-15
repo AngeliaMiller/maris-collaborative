@@ -1,32 +1,24 @@
 ---
-title: "Let's build together"
-description: "I'd love to hear from you!"
-title-block-banner: true
+title: ""
+# title-block-banner: true
 # title-block-banner-color: "#276f75"
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: center;
-        height: 200px;
-      }
-      </style>
-# about: 
-#   template: trestles
-#   image: images/headshot.jpg
-#   image-shape: round
-#   image-width: 10em
-#   links: 
-#     - href: mailto:amiller@mariscollaborative.com
-#       icon: envelope
-#       text: Email
-#     - href: https://www.linkedin.com/in/angeliamarie4/
-#       icon: "linkedin"
-#       text: LinkedIn
-#     - href: https://github.com/AngeliaMiller
-#       icon: github
-#       text: GitHub
+# include-in-header:
+#   - text: |
+#       <style>
+#       .quarto-title-block .quarto-title-banner {
+#         background-position-y: center;
+#         height: 200px;
+#       }
+#       </style>
+
 ---
+<!---------------------------------------------->
+<!---------------- START banner ---------------->
+::: {.column-screen}
+![](images/banner-images/contact_banner.svg){width=100%}
+:::
+<!---------------- END banner ---------------->
+<!-------------------------------------------->
 
 <!---------------- START intro text ---------------->
 ::: {.grid}
