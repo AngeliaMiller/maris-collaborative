@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Maris Collaborative"
 # image: images/headshot.jpg
 # about:
   # template: solana
