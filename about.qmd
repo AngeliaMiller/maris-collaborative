@@ -8,7 +8,7 @@ title: ""
 ::: {right-align}
 ::: {.large-body-text .dark-blue-text}
 <br>
-<br>
+
 About Maris Collaborative
 :::
 :::
@@ -27,7 +27,7 @@ I'm currently in the process of developing this page. Please check back later!
 :::
   
 :::  {.g-col-12 .g-col-md-9}
-[Angelia Miller](https://angeliamiller.github.io) is the owner and principal consultant for Maris Collaborative, LLC. She is a fisheries scientist by trade and an advocate for open and applied sciences. She finds joy in building reproducible and streamlined workflows in the data throughout the data life cycle. Email at [amiller@mariscollaborative.com](mailto:amiller@mariscollaborative.com)
+[Angelia Miller](https://angeliamiller.github.io) is the owner and principal consultant for Maris Collaborative, LLC. She is a fisheries scientist by trade and an advocate for open and applied sciences. She finds joy in building reproducible and streamlined workflows throughout the data life cycle. Email at [amiller@mariscollaborative.com](mailto:amiller@mariscollaborative.com)
 
 :::
 :::
